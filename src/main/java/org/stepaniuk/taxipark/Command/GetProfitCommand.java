@@ -11,6 +11,7 @@ public class GetProfitCommand implements Command{
 
     @Override
     public void execute() {
-        park.getProfit();
+        double profit = park.getProfit();
+        System.out.println("Profit of your taxi park: "+profit+" UAH");
     }
 }

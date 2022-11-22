@@ -12,5 +12,6 @@ public class SortCarParkCommand implements Command{
     @Override
     public void execute() {
         park.sortByConsumption();
+        System.out.println("Car park was sorted!");
     }
 }

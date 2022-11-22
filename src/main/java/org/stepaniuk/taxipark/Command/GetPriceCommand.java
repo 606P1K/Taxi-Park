@@ -11,6 +11,7 @@ public class GetPriceCommand implements Command{
 
     @Override
     public void execute() {
-        park.getPriceOfPark();
+        double price = park.getPriceOfPark();
+        System.out.println("---------------Price of the car park---------------\n"+price+"$");
     }
 }
